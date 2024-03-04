@@ -1,9 +1,11 @@
-import React from 'react'
-import App from './App'
+import React from "react";
 
-describe('<App />', () => {
-  it('renders', () => {
+import App from "./App";
+import "./App.css";
+
+describe("<App />", () => {
+  it("renders", () => {
     // see: https://on.cypress.io/mounting-react
-    cy.mount(<App />)
-  })
-})
+    cy.mount(<App />);
+  });
+});
